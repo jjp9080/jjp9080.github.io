@@ -1,0 +1,32 @@
+
+.smoke{
+    position: relative;
+    color: white;
+}
+.pins{
+    position: relative;
+    color: #1fffe5;
+}
+.moved{
+    position: relative;
+    color: white;
+}
+.hands1{
+    top: 8px;
+    left: 16px;
+    padding: 40px;
+}
+.hands2{
+    position:absolute;
+    top: 550px;
+    right: 400px;
+    padding: 40px;
+}
+a{
+    background-color: #D92121;
+    transition: background-color 0.5s;
+}
+
+a:hover {
+    background-color:white;
+}
