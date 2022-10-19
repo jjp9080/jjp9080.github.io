@@ -1,12 +1,25 @@
 
+
 .smoke{
     position: relative;
     color: white;
 }
+img {
+    max-width: 100%
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
 .pins{
     position: relative;
     color: #1fffe5;
 }
+.text {
+    font-size: 40px;
+    padding-left: 10px;
+  }
 .moved{
     position: relative;
     color: white;
@@ -15,6 +28,7 @@
     top: 8px;
     left: 16px;
     padding: 40px;
+    flex-basis: 40%
 }
 .hands2{
     position:absolute;
@@ -29,4 +43,22 @@ a{
 
 a:hover {
     background-color:white;
+}
+details {
+    width: 200px;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
 }
