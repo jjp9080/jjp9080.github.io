@@ -51,7 +51,21 @@
     transform: translate(-50%, -50%) 
 }
 
+@keyframes moving{
+    0%{
+        font-size: 10px;
+    }
+    100%{
+        font-size: 100px;
+    }
+}
+
 @keyframes mymove{
     from {top: 10px; background-color: red;}
     to {top: 350px; background-color: pink;}
+}
+
+.moves:hover {
+    animation: moving 5s;
+    animation-fill-mode: both;
 }
