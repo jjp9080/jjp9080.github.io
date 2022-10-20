@@ -1,52 +1,52 @@
 .shape{
 
-width: 100px;
-height: 100px;
-background: red;
-position: relative;
-animation: mymove 3s ease-in-out;
-animation-delay: 2s;
-animation-fill-mode: forwards;
-box-align: center;
-left: 50%;
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 3s ease-in-out;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    box-align: center;
+    left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
 }
 
 .shape2{
     width: 100px;
-height: 100px;
-background: orange;
-position: relative;
-animation: mymove 3s;
-animation-delay: 4s;
-animation-fill-mode: forwards;
-left: 50%;
+    height: 100px;
+    background: orange;
+    position: relative;
+    animation: mymove 3s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
 }
 .shape3{
     width: 100px;
-height: 100px;
-background: yellow;
-position: relative;
-animation: mymove 3s;
-animation-delay: 6s;
-animation-fill-mode: forwards;
-left: 50%;
+    height: 100px;
+    background: yellow;
+    position: relative;
+    animation: mymove 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
 }
 
 .shape4{
     width: 100px;
-height: 100px;
-background: green;
-position: relative;
-animation: mymove 3s;
-animation-delay: 8s;
-animation-fill-mode: forwards;
-left: 50%;
+    height: 100px;
+    background: green;
+    position: relative;
+    animation: mymove 3s;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+    left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
 }
@@ -54,4 +54,3 @@ left: 50%;
 @keyframes mymove{
     from {top: 10px; background-color: red;}
     to {top: 350px; background-color: pink;}
-}
