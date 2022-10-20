@@ -1,0 +1,116 @@
+.shape{
+
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 3s ease-in-out;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    box-align: center;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.shape2{
+    width: 100px;
+    height: 100px;
+    background: orange;
+    position: relative;
+    animation: mymove 3s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.shape3{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    position: relative;
+    animation: mymove 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.shape4{
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: relative;
+    animation: mymove 3s;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+@keyframes mymove{
+    from {top: 0px; background-color: red;}
+    to {top: 350px; background-color: pink;}
+}
+
+@keyframes moving{
+    from {top:0px; left: 0px; background-color: blue;}
+    to {top: 0px; left:350px; background-color: lightskyblue;}
+}
+
+.shape5{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: #996F3A;
+    position: relative;
+    animation: moving 3s ease-in-out;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+.shape6{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: #5BE67C;
+    position: relative;
+    animation: moving 3s ease-in-out;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+.shape7{
+    display:flex;
+    width: 100px;
+    height: 100px;
+    background: #E6B16E;
+    position: relative;
+    animation: moving 3s ease-in-out;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+.shape8{
+    display:flex;
+    width: 100px;
+    height: 100px;
+    background: #9157E6;
+    position: relative;
+    animation: moving 3s ease-in-out;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    padding: 10px white;
+}
+
+div.horizontalgap {
+    float: left;
+    overflow: hidden;
+    height: 1px;
+    width: 0px;
+  }
+
