@@ -1,0 +1,187 @@
+body {
+    background-color: black;
+}
+
+.list{
+	width: 700px;
+	height: 500px;
+	background-color: #000000;
+	padding-top: 70px;
+	margin: auto;
+}
+#songList{
+	font-family: 'Monaco';
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#songList li{
+	margin-top: 5px;
+}
+#songList li:hover{
+	color: #3776b9;
+}
+
+.musicBox {
+	font: 9px 'Monaco';
+	background-color: #595959;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-webkit-box-shadow: 10px 10px 25px rgb(204,204,204);
+	-moz-box-shadow: 10px 10px 25px rgb(204,204,204);
+	box-shadow: 10px 10px 25px rgb(204,204,204);
+	opacity: 0.9;
+	padding: 2px 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #488ef0;
+	width: 1050px;
+	height: 100px;
+	border-radius: 10px;
+    margin: auto;
+}
+
+.previousButton {
+	width: 0px;
+	padding: 30px;
+	float: left;
+	height: 20px;
+	background: url(icon-previous.png) no-repeat;
+	margin-left: 10px;
+    margin-top: 12px;
+}
+
+.previousButton:hover {
+	background: url(icon-previous-2.png) no-repeat;
+}
+
+.playButton {
+	width: 25px;
+	padding: 30px;
+	float: left;
+	height: 20px;
+	background: url(icon-play.png) no-repeat;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.playButton:hover {
+	background: url(icon-play-2.png) no-repeat;
+}
+
+.nextButton {
+	width: 0px;
+	padding: 30px;
+	float: left;
+	height: 20px;
+	background: url(icon-next.png) no-repeat;
+    margin-top: 12px;
+}
+
+.nextButton:hover {
+	background: url(icon-next-2.png) no-repeat;
+}
+
+.progressControl {
+	width: 500px;
+	padding: 25px;
+	float: left;
+	height: 30px;
+	margin-left: 12px;
+    margin-right: 12px;
+	color: #ffffff;
+}
+
+.progressControl .songName {
+	float: left;
+    font-size: 18px;
+}
+
+.progressControl .songTime {
+	float: right;
+	font-size: 18px;
+}
+
+.progressControl .progress {
+	width: 500px;
+	float: left;
+	height: 5px;
+	cursor: pointer;
+	background-color: #000000;
+	margin-top: 7px;
+    position: relative;
+}
+
+.progressControl .progressYet {
+	width: 0px;
+	position: absolute;
+	height: 5px;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+	background-color: #4292e3;
+}
+
+.voiceEmp {
+	width: 0px;
+	padding: 30px;
+	float: left;
+	height: 17px;
+	background: url(icon-mute.png) no-repeat;
+	margin-right: 12px;
+    margin-top: 12px;
+}
+
+.voiceEmp:hover {
+	background: url(icon-mute-2.png) no-repeat;
+}
+
+.voidProgress {
+	width: 66px;
+	height: 5px;
+	cursor: pointer;
+	background-color: black;
+	float: left;
+	margin-top: 50px;
+	margin-right: 6px;
+}
+
+.voidProgressYet {
+	width: 66px;
+	position: absolute;
+	height: 5px;
+	left: 1076px;
+	top: 631px;
+	cursor: pointer;
+	background-color: #93827a;
+}
+
+.voiceFull {
+	width: 0px;
+	padding: 30px;
+	float: left;
+	height: 17px;
+	background: url(icon-unmute.png) no-repeat;
+    margin-top: 12px;
+	margin-left: 12px;
+}
+
+.voiceFull:hover {
+	background: url(icon-unmute-2.png) no-repeat;
+}
+
+.pauseButton {
+	width: 25px;
+	padding: 30px;
+	float: left;
+	height: 20px;
+	background: url(icon-pause.png) no-repeat;
+	margin-top: 12px;
+    margin-left: 20px;
+}
+
+.pauseButton:hover {
+	background: url(icon-pause-2.png) no-repeat;
+}
