@@ -1,0 +1,36 @@
+img#mydiv{
+    max-width:100%;
+    height: auto;
+}
+p{
+    font-family: 'Horror Type', sans-serif;
+    font-size: 100px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    color: white;
+}
+.hey{
+    font-family: 'Horror Type', sans-serif;
+    font-size: 150px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    color: white;
+}
+.who{
+    font-family: 'Horror Type', sans-serif;
+    font-size: 100px;
+    position: absolute;
+    top: 10px;
+    right: 500px;
+    color: white;
+}
+.are{
+    font-family: 'Horror Type', sans-serif;
+    font-size: 100px;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    color: white;
+}
