@@ -1,0 +1,18 @@
+a{
+    padding: 10px;
+    background-color: lavender;
+    margin-left: 20px;
+}
+
+a:hover{
+    background-color:pink;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
